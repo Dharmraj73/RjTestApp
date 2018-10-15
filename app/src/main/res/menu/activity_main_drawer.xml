@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addCategory"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/add_category" />
+        <item
+            android:id="@+id/nav_addItem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/add_item" />
+        <item
+            android:id="@+id/nav_generateBill"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Geneerate Bill" />
+
+        <item
+            android:id="@+id/nav_editProduct"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Edit Product" />
+    </group>
+
+</menu>
